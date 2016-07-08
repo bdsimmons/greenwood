@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+
+
+/******************************* Violet ******************************/
+
+a {
+	color:#ffa780; 
+} 
+
+a:hover {
+	color: #f96e31;
+}
+
+header.navbar {
+	border-bottom: 5px solid #ffa780;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	color: #ffa780;
+}
+
+.navbar-nav>li.active>a {
+	border-bottom: 2px dotted #ffa780;
+	color: #ffa780;
+}
+
+.slide1 .text span { 
+	color: #ffa780; 
+}
+
+h2 i {
+	background: #f96e31;
+}
+
+.cu-controls .carousel-indicators li.middle:hover,
+.cu-controls .carousel-indicators li.middle.active {
+	border-top: 3px solid #f96e31;
+	color: #f96e31;
+}
+
+.service .cu-controls a.sercacontrol:hover {
+	color: #f96e31;
+	border: 1px solid #f96e31;
+}
+
+.ministries .cu-controls a.sercacontrol {
+	background: #ffa780;
+}
+
+.ministries .cu-controls a.sercacontrol:hover {
+	background: #f96e31;
+}
+
+.ministries .groups .more {
+	background: #f96e31;
+}
+
+.ministries .pagination {
+	color: #f96e31;
+}
+
+.gallery .image a .bg {
+	background-color: rgba(255,167,128,0.7);
+}
+
+.gallery .image a .bg .plus {
+	background: #f96e31;
+}
+
+.gallery .album-title span {
+	color: #f96e31;
+}
+
+.control-arrow a i {
+	border: 1px solid #f96e31;
+	color: #f96e31;
+}
+
+.control-arrow a:hover i{
+	background: #f96e31;
+	border: 1px solid #f96e31;
+	color: #fff;
+}
+
+.events .eventlist {
+	border-top: 3px solid #ffa780;
+}
+
+.events .infobox.light {
+	background-color: #ffa780;
+}
+
+.events .infobox.dark {
+	background-color: #f96e31;
+}
+
+.events a.more {
+	color: #f96e31;
+}
+
+.events a.more:hover {
+	color: #ffa780;
+}
+
+.control-arrow a:hover {
+	color: #f96e31;
+}
+
+.jp-gui .jp-btn {
+	background: #f96e31;
+}
+
+.jp-gui .jp-btn:hover {
+	background: #ffa780;
+}
+
+.jp-gui .jp-progress .jp-seek-bar {
+	background: #f96e31;
+}
+
+.jp-gui .jp-progress .jp-seek-bar .jp-play-bar {
+	background: #ffa780;
+}
+
+.sermons .playlist a:hover {
+	color: #f96e31;
+}
+
+.btn:hover {
+	background: #f96e31;
+}

@@ -99,8 +99,8 @@
     $("#jquery_jplayer_1").jPlayer({
         ready: function(event) {
             $(this).jPlayer("setMedia", {
-				m4a: "http://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v",
-				oga: "http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer.ogv",
+				m4a: "https://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v",
+				oga: "https://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer.ogv",
 				poster: "img/player/player1.jpg"
 			});
         },

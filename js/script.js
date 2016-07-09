@@ -96,24 +96,24 @@
 /******************************  jPlayer  **********************************/
 // http://www.jplayer.org/ 
 
-    $("#jquery_jplayer_1").jPlayer({
-        ready: function(event) {
-            $(this).jPlayer("setMedia", {
-				m4a: "https://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v",
-				oga: "https://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer.ogv",
-				poster: "img/player/player1.jpg"
-			});
-        },
-        swfPath: "../jPlayer",
-        supplied: "oga, m4a",
-        size: {
-			width: $('.player-container').width()+"px",
-			height: $('.player-container').height()+"px",
-			cssClass: "jp-video-360p"
-		},
-		smoothPlayBar: true,
-		keyEnabled: true
-    });
+  //   $("#jquery_jplayer_1").jPlayer({
+  //       ready: function(event) {
+  //           $(this).jPlayer("setMedia", {
+		// 		m4a: "https://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v",
+		// 		oga: "https://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer.ogv",
+		// 		poster: "img/player/player1.jpg"
+		// 	});
+  //       },
+  //       swfPath: "../jPlayer",
+  //       supplied: "oga, m4a",
+  //       size: {
+		// 	width: $('.player-container').width()+"px",
+		// 	height: $('.player-container').height()+"px",
+		// 	cssClass: "jp-video-360p"
+		// },
+		// smoothPlayBar: true,
+		// keyEnabled: true
+  //   });
 
 
 

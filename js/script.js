@@ -72,23 +72,23 @@
 
 /*******************************  gMaps  ***********************************/
 
-	if ($('#map').length) {
-		var map;
-		map = new GMaps({
-			div: '#map',
-			lat: 30.501821,
-			lng: -87.6414477,
-			zoom: 12
-		});
-		map.addMarker({
-			lat: 30.501821,
-			lng: -87.6414477,
-			title: 'Contact',
-			infoWindow: {
-				content: '15rd Avenue, New York,<br /> 156408, US<br /> <br /> Email: info@company.com <br /> Web: company.com'
-			}
-		});
-	}
+	// if ($('#map').length) {
+	// 	var map;
+	// 	map = new GMaps({
+	// 		div: '#map',
+	// 		lat: 30.501821,
+	// 		lng: -87.6414477,
+	// 		zoom: 12
+	// 	});
+	// 	map.addMarker({
+	// 		lat: 30.501821,
+	// 		lng: -87.6414477,
+	// 		title: 'Contact',
+	// 		infoWindow: {
+	// 			content: '15rd Avenue, New York,<br /> 156408, US<br /> <br /> Email: info@company.com <br /> Web: company.com'
+	// 		}
+	// 	});
+	// }
 
 
 

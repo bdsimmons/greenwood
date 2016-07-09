@@ -76,13 +76,14 @@
 		var map;
 		map = new GMaps({
 			div: '#map',
-			lat: 41.8902624,
-			lng: 12.4923096
+			lat: 30.501821,
+			lng: -87.6414477,
+			zoom: 12
 		});
 		map.addMarker({
-			lat: 41.8902624,
-			lng: 12.4923096,
-			title: 'Contanct',
+			lat: 30.501821,
+			lng: -87.6414477,
+			title: 'Contact',
 			infoWindow: {
 				content: '15rd Avenue, New York,<br /> 156408, US<br /> <br /> Email: info@company.com <br /> Web: company.com'
 			}

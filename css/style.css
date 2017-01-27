@@ -117,7 +117,6 @@ li {
 
 
 
-
 /***************************************************************************/
 /********************** General Styles for Components **********************/
 
@@ -554,6 +553,7 @@ footer .copy h6 {
 
 .info-box ul li {
 	font-size: 1.5em;
+	list-style-type: square;
 	list-style-position: inside;
 	line-height: 1.5;
 	margin: 0 0;
@@ -756,6 +756,10 @@ h2 i {
 }
 
 
+
+dl {
+	font-size: 1.6em;
+}
 
 /******************************** Photo Albums *****************************/
 

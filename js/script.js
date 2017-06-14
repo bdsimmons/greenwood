@@ -72,23 +72,23 @@
 
 /*******************************  gMaps  ***********************************/
 
-	// if ($('#map').length) {
-	// 	var map;
-	// 	map = new GMaps({
-	// 		div: '#map',
-	// 		lat: 30.501821,
-	// 		lng: -87.6414477,
-	// 		zoom: 12
-	// 	});
-	// 	map.addMarker({
-	// 		lat: 30.501821,
-	// 		lng: -87.6414477,
-	// 		title: 'Contact',
-	// 		infoWindow: {
-	// 			content: '15rd Avenue, New York,<br /> 156408, US<br /> <br /> Email: info@company.com <br /> Web: company.com'
-	// 		}
-	// 	});
-	// }
+	if ($('#map').length) {
+		var map;
+		map = new GMaps({
+			div: '#map',
+			lat: 30.501821,
+			lng: -87.6414477,
+			zoom: 12
+		});
+		map.addMarker({
+			lat: 30.501821,
+			lng: -87.6414477,
+			title: 'Contact',
+			infoWindow: {
+				content: '15rd Avenue, New York,<br /> 156408, US<br /> <br /> Email: info@company.com <br /> Web: company.com'
+			}
+		});
+	}
 
 
 
@@ -96,24 +96,26 @@
 /******************************  jPlayer  **********************************/
 // http://www.jplayer.org/ 
 
-  //   $("#jquery_jplayer_1").jPlayer({
-  //       ready: function(event) {
-  //           $(this).jPlayer("setMedia", {
-		// 		m4a: "https://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v",
-		// 		oga: "https://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer.ogv",
-		// 		poster: "img/player/player1.jpg"
-		// 	});
-  //       },
-  //       swfPath: "../jPlayer",
-  //       supplied: "oga, m4a",
-  //       size: {
-		// 	width: $('.player-container').width()+"px",
-		// 	height: $('.player-container').height()+"px",
-		// 	cssClass: "jp-video-360p"
-		// },
-		// smoothPlayBar: true,
-		// keyEnabled: true
-  //   });
+    $("#jquery_jplayer_1").jPlayer({
+        ready: function(event) {
+			console.log(event);
+            $(this).jPlayer("setMedia", {
+				// m4a: "https://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v",
+				// oga: "https://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer.ogv",
+				mp3: "sermons/GCCC17may2015.mp3",
+				poster: "img/player/player1.jpg"
+			});
+        },
+        swfPath: "../jPlayer",
+        supplied: "mp3",
+        size: {
+			width: $('.player-container').width()+"px",
+			height: $('.player-container').height()+"px",
+			cssClass: "jp-video-360p"
+		},
+		smoothPlayBar: true,
+		keyEnabled: true
+    });
 
 
 
@@ -133,9 +135,10 @@
 			$('.jp-title').html('<strong>' + $(this).data('title') + '</strong> ' + $(this).data('by'))
 
 			$('#jquery_jplayer_1').jPlayer('setMedia', {
-				m4a: $(this).data('url'),
-				ogv: $(this).data('url'),
-				webmv: $(this).data('url'),
+				mp3: $(this).data('url'),
+				// m4a: $(this).data('url'),
+				// ogv: $(this).data('url'),
+				// webmv: $(this).data('url'),
 				poster: $(this).data('poster')
 			}) 
 		});
